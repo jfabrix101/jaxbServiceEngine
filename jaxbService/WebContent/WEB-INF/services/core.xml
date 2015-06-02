@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<services>
+
+	<service name="echoTimestamp" description="echo service (with current timestamp)" secure="false" >
+		<implementationClass>it.jaxbservice.core.EchoTimestamp</implementationClass>
+		<inputClass></inputClass>
+		<outputClass>it.jaxbservice.core.StringWrapper</outputClass>
+		<initParams>
+			<param name="" value="" />
+		</initParams>
+	</service>
+	
+	
+	<service name="realodServices" description="Ricarca l'elenco dei servizi" secure="false" >
+		<implementationClass>it.jaxbservice.core.ReloadServices</implementationClass>
+		<inputClass></inputClass>
+		<outputClass>it.jaxbservice.core.BooleanWrapper</outputClass>
+	</service>
+	
+
+</services>

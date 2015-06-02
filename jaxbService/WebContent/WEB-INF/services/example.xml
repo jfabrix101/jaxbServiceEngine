@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<services>
+
+	<service name="example" description="Simple example with complex types" secure="false" >
+		<implementationClass>it.jaxbservice.example.SimpleExample</implementationClass>
+		<inputClass>it.jaxbservice.example.SimpleExampleRequest</inputClass>
+		<outputClass>it.jaxbservice.example.SimpleExampleResponse</outputClass>
+		<initParams>
+			<param name="welcomeMessage" value="Hello World !!" />
+		</initParams>
+	</service>
+	
+</services>
